@@ -1,0 +1,50 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Styling for messages */
+.alert {
+    margin-top: 20px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    color: #777;
+}
+
+/* Custom button styling */
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}

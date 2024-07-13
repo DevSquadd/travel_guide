@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+  /* Your existing CSS styles */
+</style>
+
+<h2>Profile</h2>
+<form method="post">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Save</button>
+</form>
+
+<script>
+  // Example JavaScript for form submission alert
+  document.addEventListener('DOMContentLoaded', function () {
+    const form = document.querySelector('form');
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      alert('Form submitted!');
+      // You can add further handling or AJAX submission here
+    });
+  });
+</script>
+{% endblock %}
